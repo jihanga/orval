@@ -1404,6 +1404,8 @@ const generateZodRoute = async (
     };
   }
 
+  operationName = operationName;
+
   return {
     implementation: [
       ...(inputParams.consts ? [inputParams.consts] : []),
