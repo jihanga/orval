@@ -2727,13 +2727,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/aix-ppc64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/aix-ppc64@npm:0.25.12"
-  conditions: os=aix & cpu=ppc64
-  languageName: node
-  linkType: hard
-
 "@esbuild/aix-ppc64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/aix-ppc64@npm:0.25.9"
@@ -2751,13 +2744,6 @@ __metadata:
 "@esbuild/android-arm64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/android-arm64@npm:0.17.19"
-  conditions: os=android & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@esbuild/android-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/android-arm64@npm:0.25.12"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
@@ -2783,13 +2769,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/android-arm@npm:0.25.12"
-  conditions: os=android & cpu=arm
-  languageName: node
-  linkType: hard
-
 "@esbuild/android-arm@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/android-arm@npm:0.25.9"
@@ -2807,13 +2786,6 @@ __metadata:
 "@esbuild/android-x64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/android-x64@npm:0.17.19"
-  conditions: os=android & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/android-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/android-x64@npm:0.25.12"
   conditions: os=android & cpu=x64
   languageName: node
   linkType: hard
@@ -2839,13 +2811,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/darwin-arm64@npm:0.25.12"
-  conditions: os=darwin & cpu=arm64
-  languageName: node
-  linkType: hard
-
 "@esbuild/darwin-arm64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/darwin-arm64@npm:0.25.9"
@@ -2863,13 +2828,6 @@ __metadata:
 "@esbuild/darwin-x64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/darwin-x64@npm:0.17.19"
-  conditions: os=darwin & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/darwin-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/darwin-x64@npm:0.25.12"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -2895,13 +2853,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/freebsd-arm64@npm:0.25.12"
-  conditions: os=freebsd & cpu=arm64
-  languageName: node
-  linkType: hard
-
 "@esbuild/freebsd-arm64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/freebsd-arm64@npm:0.25.9"
@@ -2919,13 +2870,6 @@ __metadata:
 "@esbuild/freebsd-x64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/freebsd-x64@npm:0.17.19"
-  conditions: os=freebsd & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/freebsd-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/freebsd-x64@npm:0.25.12"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
@@ -2951,13 +2895,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-arm64@npm:0.25.12"
-  conditions: os=linux & cpu=arm64
-  languageName: node
-  linkType: hard
-
 "@esbuild/linux-arm64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/linux-arm64@npm:0.25.9"
@@ -2975,13 +2912,6 @@ __metadata:
 "@esbuild/linux-arm@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/linux-arm@npm:0.17.19"
-  conditions: os=linux & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@esbuild/linux-arm@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-arm@npm:0.25.12"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -3007,13 +2937,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ia32@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-ia32@npm:0.25.12"
-  conditions: os=linux & cpu=ia32
-  languageName: node
-  linkType: hard
-
 "@esbuild/linux-ia32@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/linux-ia32@npm:0.25.9"
@@ -3031,13 +2954,6 @@ __metadata:
 "@esbuild/linux-loong64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/linux-loong64@npm:0.17.19"
-  conditions: os=linux & cpu=loong64
-  languageName: node
-  linkType: hard
-
-"@esbuild/linux-loong64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-loong64@npm:0.25.12"
   conditions: os=linux & cpu=loong64
   languageName: node
   linkType: hard
@@ -3063,13 +2979,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-mips64el@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-mips64el@npm:0.25.12"
-  conditions: os=linux & cpu=mips64el
-  languageName: node
-  linkType: hard
-
 "@esbuild/linux-mips64el@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/linux-mips64el@npm:0.25.9"
@@ -3087,13 +2996,6 @@ __metadata:
 "@esbuild/linux-ppc64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/linux-ppc64@npm:0.17.19"
-  conditions: os=linux & cpu=ppc64
-  languageName: node
-  linkType: hard
-
-"@esbuild/linux-ppc64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-ppc64@npm:0.25.12"
   conditions: os=linux & cpu=ppc64
   languageName: node
   linkType: hard
@@ -3119,13 +3021,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-riscv64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-riscv64@npm:0.25.12"
-  conditions: os=linux & cpu=riscv64
-  languageName: node
-  linkType: hard
-
 "@esbuild/linux-riscv64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/linux-riscv64@npm:0.25.9"
@@ -3143,13 +3038,6 @@ __metadata:
 "@esbuild/linux-s390x@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/linux-s390x@npm:0.17.19"
-  conditions: os=linux & cpu=s390x
-  languageName: node
-  linkType: hard
-
-"@esbuild/linux-s390x@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-s390x@npm:0.25.12"
   conditions: os=linux & cpu=s390x
   languageName: node
   linkType: hard
@@ -3175,13 +3063,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/linux-x64@npm:0.25.12"
-  conditions: os=linux & cpu=x64
-  languageName: node
-  linkType: hard
-
 "@esbuild/linux-x64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/linux-x64@npm:0.25.9"
@@ -3193,13 +3074,6 @@ __metadata:
   version: 0.27.0
   resolution: "@esbuild/linux-x64@npm:0.27.0"
   conditions: os=linux & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/netbsd-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/netbsd-arm64@npm:0.25.12"
-  conditions: os=netbsd & cpu=arm64
   languageName: node
   linkType: hard
 
@@ -3224,13 +3098,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/netbsd-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/netbsd-x64@npm:0.25.12"
-  conditions: os=netbsd & cpu=x64
-  languageName: node
-  linkType: hard
-
 "@esbuild/netbsd-x64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/netbsd-x64@npm:0.25.9"
@@ -3242,13 +3109,6 @@ __metadata:
   version: 0.27.0
   resolution: "@esbuild/netbsd-x64@npm:0.27.0"
   conditions: os=netbsd & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/openbsd-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/openbsd-arm64@npm:0.25.12"
-  conditions: os=openbsd & cpu=arm64
   languageName: node
   linkType: hard
 
@@ -3273,13 +3133,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/openbsd-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/openbsd-x64@npm:0.25.12"
-  conditions: os=openbsd & cpu=x64
-  languageName: node
-  linkType: hard
-
 "@esbuild/openbsd-x64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/openbsd-x64@npm:0.25.9"
@@ -3291,13 +3144,6 @@ __metadata:
   version: 0.27.0
   resolution: "@esbuild/openbsd-x64@npm:0.27.0"
   conditions: os=openbsd & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/openharmony-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/openharmony-arm64@npm:0.25.12"
-  conditions: os=openharmony & cpu=arm64
   languageName: node
   linkType: hard
 
@@ -3318,13 +3164,6 @@ __metadata:
 "@esbuild/sunos-x64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/sunos-x64@npm:0.17.19"
-  conditions: os=sunos & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/sunos-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/sunos-x64@npm:0.25.12"
   conditions: os=sunos & cpu=x64
   languageName: node
   linkType: hard
@@ -3350,13 +3189,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/win32-arm64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/win32-arm64@npm:0.25.12"
-  conditions: os=win32 & cpu=arm64
-  languageName: node
-  linkType: hard
-
 "@esbuild/win32-arm64@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/win32-arm64@npm:0.25.9"
@@ -3378,13 +3210,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/win32-ia32@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/win32-ia32@npm:0.25.12"
-  conditions: os=win32 & cpu=ia32
-  languageName: node
-  linkType: hard
-
 "@esbuild/win32-ia32@npm:0.25.9":
   version: 0.25.9
   resolution: "@esbuild/win32-ia32@npm:0.25.9"
@@ -3402,13 +3227,6 @@ __metadata:
 "@esbuild/win32-x64@npm:0.17.19":
   version: 0.17.19
   resolution: "@esbuild/win32-x64@npm:0.17.19"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@esbuild/win32-x64@npm:0.25.12":
-  version: 0.25.12
-  resolution: "@esbuild/win32-x64@npm:0.25.12"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -5441,12 +5259,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@orval/angular@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/angular@npm:7.16.0"
+"@orval/angular@https://gitpkg.vercel.app/jihanga/orval/packages/angular?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/angular@https://gitpkg.vercel.app/jihanga/orval/packages/angular?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
-  checksum: 10c0/0405de93947aa9f7c3075b3ec46aaba2ec2fd50d94f6a45ac42dd7b598b197ed92896ae2b4340a32528725ced55f5dc25f0f5d37276884cd0b7da8f5d9526431
+    "@orval/core": "workspace:*"
+  checksum: 10c0/83f165ba0db36b767d068a2deb6082b214a003d91ce33b1e0e82523759d0cf88729098fc99f3669a5bf44c43a69dda0f0434c3116d881d5e32c12770839d3843
   languageName: node
   linkType: hard
 
@@ -5454,7 +5272,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/angular@workspace:packages/angular"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     eslint: "catalog:"
     rimraf: "catalog:"
     tsdown: "catalog:"
@@ -5462,12 +5280,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/axios@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/axios@npm:7.16.0"
+"@orval/axios@https://gitpkg.vercel.app/jihanga/orval/packages/axios?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/axios@https://gitpkg.vercel.app/jihanga/orval/packages/axios?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
-  checksum: 10c0/8ecf9e8aef297cf57db99a343be9f6832ce6d1f3696f2704268439cfdbb6f118c63aa792ee6f14307a920d2ea61f93647aa3577a72633661df4ab7279224b638
+    "@orval/core": "workspace:*"
+  checksum: 10c0/2d7bfe5ef5037e3cfdc964d8a54ba83d7565726e765156595bcfe5944b90cbcc660a758b7e06672e650670fb27b1b58726262a49b3a3eb9adb35aee3a24936c8
   languageName: node
   linkType: hard
 
@@ -5475,7 +5293,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/axios@workspace:packages/axios"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     eslint: "catalog:"
     rimraf: "catalog:"
     tsdown: "catalog:"
@@ -5483,30 +5301,26 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/core@npm:7.16.0, @orval/core@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/core@npm:7.16.0"
+"@orval/core@https://gitpkg.vercel.app/jihanga/orval/packages/core?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/core@https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
   dependencies:
     "@apidevtools/swagger-parser": "npm:^12.1.0"
     "@ibm-cloud/openapi-ruleset": "npm:^1.33.1"
     "@stoplight/spectral-core": "npm:^1.20.0"
     acorn: "npm:^8.15.0"
-    chalk: "npm:^4.1.2"
+    chalk: "npm:^5.6.2"
     compare-versions: "npm:^6.1.1"
     debug: "npm:^4.4.3"
-    esbuild: "npm:^0.25.11"
+    esbuild: "npm:^0.27.0"
     esutils: "npm:2.0.3"
-    fs-extra: "npm:^11.3.1"
-    globby: "npm:11.1.0"
-    lodash.isempty: "npm:^4.4.0"
-    lodash.uniq: "npm:^4.5.0"
-    lodash.uniqby: "npm:^4.7.0"
-    lodash.uniqwith: "npm:^4.5.0"
-    micromatch: "npm:^4.0.8"
+    fs-extra: "npm:^11.3.2"
+    globby: "npm:15.0.0"
     openapi3-ts: "npm:4.5.0"
+    remeda: "npm:^2.32.0"
     swagger2openapi: "npm:^7.0.8"
     typedoc: "npm:^0.28.14"
-  checksum: 10c0/836db210252278ad4475123a0d72a167fee247bc9ce97ebb893543ba7bc8572bc04632f0e4febc7027a4c84f64973b9a04e18d81b2b2a68e1c0212a4d50ad0d9
+  checksum: 10c0/c8c0309b4015db7a9ab3f9fef506f7b5e7060dc6598d1af75f5841dd4e59504194da8d711a4410a463d28502794b0212692a586442340e7a9d013756b9529e1f
   languageName: node
   linkType: hard
 
@@ -5543,13 +5357,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/fetch@npm:7.16.0, @orval/fetch@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/fetch@npm:7.16.0"
+"@orval/fetch@https://gitpkg.vercel.app/jihanga/orval/packages/fetch?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/fetch@https://gitpkg.vercel.app/jihanga/orval/packages/fetch?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
+    "@orval/core": "workspace:*"
     openapi3-ts: "npm:4.5.0"
-  checksum: 10c0/d7f545b20b2943be8f1e97cbff43faa8ac0cf915c1637ae44fceaa28177b80990f99fa79292c4e8e0d71e0dcf38401b22620a1a86b7ea90699da6d0cdaf4b1c8
+  checksum: 10c0/9baf61135a375e9435f1b4552ffa39a76a9764795e4f57c3aa72ff19c2c2f7e38c18a124c7cda838edef4abd24fe1dbf1c6b36f0887629fbe7576f135be76274
   languageName: node
   linkType: hard
 
@@ -5557,7 +5371,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/fetch@workspace:packages/fetch"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     eslint: "catalog:"
     openapi3-ts: "npm:4.5.0"
     rimraf: "catalog:"
@@ -5566,16 +5380,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/hono@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/hono@npm:7.16.0"
+"@orval/hono@https://gitpkg.vercel.app/jihanga/orval/packages/hono?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/hono@https://gitpkg.vercel.app/jihanga/orval/packages/hono?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
-    "@orval/zod": "npm:7.16.0"
+    "@orval/core": "workspace:*"
+    "@orval/zod": "workspace:*"
     fs-extra: "npm:^11.3.2"
-    lodash.uniq: "npm:^4.5.0"
     openapi3-ts: "npm:4.5.0"
-  checksum: 10c0/f0c4d2a4d8533abd92ac04f70b5362fd35039f8b1b64eeb92c5a10a31987a5790a0fe263b104ae261ea1bf3e7ca6240cb8d853c2e8afa99a3128bf7b3d15ac9a
+    remeda: "npm:^2.32.0"
+  checksum: 10c0/5f472e1ab7acd89b9577acadb90c0b2876d6c049c80b0e0da02f87f1073b3b118065f2cbc9013f47a301630ee8fea7c46b4637066102f5a67cdc86309fae7e2d
   languageName: node
   linkType: hard
 
@@ -5584,7 +5398,7 @@ __metadata:
   resolution: "@orval/hono@workspace:packages/hono"
   dependencies:
     "@hono/zod-validator": "npm:^0.7.4"
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     "@orval/zod": "workspace:*"
     "@types/fs-extra": "npm:^11.0.4"
     eslint: "catalog:"
@@ -5597,15 +5411,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/mcp@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/mcp@npm:7.16.0"
+"@orval/mcp@https://gitpkg.vercel.app/jihanga/orval/packages/mcp?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/mcp@https://gitpkg.vercel.app/jihanga/orval/packages/mcp?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
-    "@orval/fetch": "npm:7.16.0"
-    "@orval/zod": "npm:7.16.0"
+    "@orval/core": "workspace:*"
+    "@orval/fetch": "workspace:*"
+    "@orval/zod": "workspace:*"
     openapi3-ts: "npm:4.5.0"
-  checksum: 10c0/ea18ca64f718238850ffc6231677535b3e513b124c411ca90ba21429c8c3629be2401851a461ef7224e33602cd1d9d0992288408d480f8e2109a8ac1e29d7943
+  checksum: 10c0/827f621ae0f7a3157d12c79c6b4af7c0d0a58ef6b29552b41cde70447803a608d3644d33c648b4aeadefe80c4a4dba920e224fc7c7f23c58476643e2de44f8f9
   languageName: node
   linkType: hard
 
@@ -5613,7 +5427,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/mcp@workspace:packages/mcp"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     "@orval/fetch": "workspace:*"
     "@orval/zod": "workspace:*"
     eslint: "catalog:"
@@ -5624,13 +5438,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/mock@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/mock@npm:7.16.0"
+"@orval/mock@https://gitpkg.vercel.app/jihanga/orval/packages/mock?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/mock@https://gitpkg.vercel.app/jihanga/orval/packages/mock?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
+    "@orval/core": "workspace:*"
     openapi3-ts: "npm:4.5.0"
-  checksum: 10c0/0efb30bb3823b20ddffa32d37c1ed91f5cccacea064c41be5b6afada51241bb16f1f9965f6b9e2e8a6ee04fdee367f61e8c5120cb5f4e931ce2bf08fb9f37002
+  checksum: 10c0/4860e323743b42d4627b6db1b978a8a571590906e3ff19cd36411749deb01ad0295a8ed981b8a3e175f05ce1f0fa4f63ecb5f5d34c550ee283e275b52e319310
   languageName: node
   linkType: hard
 
@@ -5638,7 +5452,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/mock@workspace:packages/mock"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     eslint: "catalog:"
     openapi3-ts: "npm:4.5.0"
     rimraf: "catalog:"
@@ -5648,15 +5462,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/query@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/query@npm:7.16.0"
+"@orval/query@https://gitpkg.vercel.app/jihanga/orval/packages/query?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/query@https://gitpkg.vercel.app/jihanga/orval/packages/query?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
-    "@orval/fetch": "npm:7.16.0"
-    chalk: "npm:^4.1.2"
-    lodash.omitby: "npm:^4.6.0"
-  checksum: 10c0/ce74542ff9f577781813b68201b5082292ea4cde483abce1d2ac1f3da333ae5f354e20cb762ef7698626490c086305f9fdb4870c84a6eb666a472603c9fe59a3
+    "@orval/core": "workspace:*"
+    "@orval/fetch": "workspace:*"
+    chalk: "npm:^5.6.2"
+    remeda: "npm:^2.32.0"
+  checksum: 10c0/122b6fa2ae4d08a93d140887a296ea0f30538cf6a9cf2f408912b1f47bc76f85cdd00978a1b5eb6da7362577c8710e408b842f41314a94928f7ec5e3bb8a475b
   languageName: node
   linkType: hard
 
@@ -5664,7 +5478,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/query@workspace:packages/query"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     "@orval/fetch": "workspace:*"
     chalk: "npm:^5.6.2"
     eslint: "catalog:"
@@ -5675,13 +5489,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@orval/swr@npm:^7.16.0":
-  version: 7.16.0
-  resolution: "@orval/swr@npm:7.16.0"
+"@orval/swr@https://gitpkg.vercel.app/jihanga/orval/packages/swr?master":
+  version: 8.0.0-rc.1
+  resolution: "@orval/swr@https://gitpkg.vercel.app/jihanga/orval/packages/swr?master"
   dependencies:
-    "@orval/core": "npm:7.16.0"
-    "@orval/fetch": "npm:7.16.0"
-  checksum: 10c0/07ce337dbfde5ad0b51de90dce921e4850b772df7777375a054bfaacea0254d54bb672494a5008bbfdc938851cf9b48fe6b5e20584200142e01a6691f47841f3
+    "@orval/core": "workspace:*"
+    "@orval/fetch": "workspace:*"
+  checksum: 10c0/aa4374bdffaabab9efd74ec3cbbd7707347706764e14fc60485f7751e0e775db275fb26e45ce853cfab7262cdeec8a0178e4a705f5c30d6727a118ca09fecf30
   languageName: node
   linkType: hard
 
@@ -5689,7 +5503,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@orval/swr@workspace:packages/swr"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     "@orval/fetch": "workspace:*"
     eslint: "catalog:"
     rimraf: "catalog:"
@@ -5708,22 +5522,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@orval/zod@npm:7.16.0":
-  version: 7.16.0
-  resolution: "@orval/zod@npm:7.16.0"
-  dependencies:
-    "@orval/core": "npm:7.16.0"
-    lodash.uniq: "npm:^4.5.0"
-    openapi3-ts: "npm:4.5.0"
-  checksum: 10c0/92096570a9d5cdb0cacdbb82bdeff01d83cbba106d17425be3e2c9c4201b1ac0141f9944d8214cbbf7ec24c6e06f7d28fe18da017a3478bcfb1db7cdb1d1b358
-  languageName: node
-  linkType: hard
-
 "@orval/zod@workspace:*, @orval/zod@workspace:packages/zod":
   version: 0.0.0-use.local
   resolution: "@orval/zod@workspace:packages/zod"
   dependencies:
-    "@orval/core": "workspace:*"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
     eslint: "catalog:"
     openapi3-ts: "npm:4.5.0"
     remeda: "npm:^2.32.0"
@@ -12524,95 +12327,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.25.11":
-  version: 0.25.12
-  resolution: "esbuild@npm:0.25.12"
-  dependencies:
-    "@esbuild/aix-ppc64": "npm:0.25.12"
-    "@esbuild/android-arm": "npm:0.25.12"
-    "@esbuild/android-arm64": "npm:0.25.12"
-    "@esbuild/android-x64": "npm:0.25.12"
-    "@esbuild/darwin-arm64": "npm:0.25.12"
-    "@esbuild/darwin-x64": "npm:0.25.12"
-    "@esbuild/freebsd-arm64": "npm:0.25.12"
-    "@esbuild/freebsd-x64": "npm:0.25.12"
-    "@esbuild/linux-arm": "npm:0.25.12"
-    "@esbuild/linux-arm64": "npm:0.25.12"
-    "@esbuild/linux-ia32": "npm:0.25.12"
-    "@esbuild/linux-loong64": "npm:0.25.12"
-    "@esbuild/linux-mips64el": "npm:0.25.12"
-    "@esbuild/linux-ppc64": "npm:0.25.12"
-    "@esbuild/linux-riscv64": "npm:0.25.12"
-    "@esbuild/linux-s390x": "npm:0.25.12"
-    "@esbuild/linux-x64": "npm:0.25.12"
-    "@esbuild/netbsd-arm64": "npm:0.25.12"
-    "@esbuild/netbsd-x64": "npm:0.25.12"
-    "@esbuild/openbsd-arm64": "npm:0.25.12"
-    "@esbuild/openbsd-x64": "npm:0.25.12"
-    "@esbuild/openharmony-arm64": "npm:0.25.12"
-    "@esbuild/sunos-x64": "npm:0.25.12"
-    "@esbuild/win32-arm64": "npm:0.25.12"
-    "@esbuild/win32-ia32": "npm:0.25.12"
-    "@esbuild/win32-x64": "npm:0.25.12"
-  dependenciesMeta:
-    "@esbuild/aix-ppc64":
-      optional: true
-    "@esbuild/android-arm":
-      optional: true
-    "@esbuild/android-arm64":
-      optional: true
-    "@esbuild/android-x64":
-      optional: true
-    "@esbuild/darwin-arm64":
-      optional: true
-    "@esbuild/darwin-x64":
-      optional: true
-    "@esbuild/freebsd-arm64":
-      optional: true
-    "@esbuild/freebsd-x64":
-      optional: true
-    "@esbuild/linux-arm":
-      optional: true
-    "@esbuild/linux-arm64":
-      optional: true
-    "@esbuild/linux-ia32":
-      optional: true
-    "@esbuild/linux-loong64":
-      optional: true
-    "@esbuild/linux-mips64el":
-      optional: true
-    "@esbuild/linux-ppc64":
-      optional: true
-    "@esbuild/linux-riscv64":
-      optional: true
-    "@esbuild/linux-s390x":
-      optional: true
-    "@esbuild/linux-x64":
-      optional: true
-    "@esbuild/netbsd-arm64":
-      optional: true
-    "@esbuild/netbsd-x64":
-      optional: true
-    "@esbuild/openbsd-arm64":
-      optional: true
-    "@esbuild/openbsd-x64":
-      optional: true
-    "@esbuild/openharmony-arm64":
-      optional: true
-    "@esbuild/sunos-x64":
-      optional: true
-    "@esbuild/win32-arm64":
-      optional: true
-    "@esbuild/win32-ia32":
-      optional: true
-    "@esbuild/win32-x64":
-      optional: true
-  bin:
-    esbuild: bin/esbuild
-  checksum: 10c0/c205357531423220a9de8e1e6c6514242bc9b1666e762cd67ccdf8fdfdc3f1d0bd76f8d9383958b97ad4c953efdb7b6e8c1f9ca5951cd2b7c5235e8755b34a6b
-  languageName: node
-  linkType: hard
-
 "esbuild@npm:^0.27.0":
   version: 0.27.0
   resolution: "esbuild@npm:0.27.0"
@@ -14069,7 +13783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^11.3.1, fs-extra@npm:^11.3.2":
+"fs-extra@npm:^11.3.2":
   version: 11.3.2
   resolution: "fs-extra@npm:11.3.2"
   dependencies:
@@ -14465,20 +14179,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.1.0, globby@npm:^11.0.1, globby@npm:^11.0.4, globby@npm:^11.1.0":
-  version: 11.1.0
-  resolution: "globby@npm:11.1.0"
-  dependencies:
-    array-union: "npm:^2.1.0"
-    dir-glob: "npm:^3.0.1"
-    fast-glob: "npm:^3.2.9"
-    ignore: "npm:^5.2.0"
-    merge2: "npm:^1.4.1"
-    slash: "npm:^3.0.0"
-  checksum: 10c0/b39511b4afe4bd8a7aead3a27c4ade2b9968649abab0a6c28b1a90141b96ca68ca5db1302f7c7bd29eab66bf51e13916b8e0a3d0ac08f75e1e84a39b35691189
-  languageName: node
-  linkType: hard
-
 "globby@npm:15.0.0":
   version: 15.0.0
   resolution: "globby@npm:15.0.0"
@@ -14490,6 +14190,20 @@ __metadata:
     slash: "npm:^5.1.0"
     unicorn-magic: "npm:^0.3.0"
   checksum: 10c0/e4107be0579bcdd9642b8dff86aeafeaf62b2b9dd116669ab6e02e0e0c07ada0d972c2db182dee7588b460fe8c8919ddcc6b1cc4db405ca3a2adc9d35fa6eb21
+  languageName: node
+  linkType: hard
+
+"globby@npm:^11.0.1, globby@npm:^11.0.4, globby@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "globby@npm:11.1.0"
+  dependencies:
+    array-union: "npm:^2.1.0"
+    dir-glob: "npm:^3.0.1"
+    fast-glob: "npm:^3.2.9"
+    ignore: "npm:^5.2.0"
+    merge2: "npm:^1.4.1"
+    slash: "npm:^3.0.0"
+  checksum: 10c0/b39511b4afe4bd8a7aead3a27c4ade2b9968649abab0a6c28b1a90141b96ca68ca5db1302f7c7bd29eab66bf51e13916b8e0a3d0ac08f75e1e84a39b35691189
   languageName: node
   linkType: hard
 
@@ -17099,13 +16813,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.isempty@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "lodash.isempty@npm:4.4.0"
-  checksum: 10c0/6c7eaa0802398736809b9e8aed8b8ac1abca9be71788fd719ba9d7f5b4c23e8dc63b7f049df4131713dda30a2fdedc2f655268e9deb8cd5a985dfc934afca194
-  languageName: node
-  linkType: hard
-
 "lodash.isplainobject@npm:^4.0.6":
   version: 4.0.6
   resolution: "lodash.isplainobject@npm:4.0.6"
@@ -17141,13 +16848,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.omitby@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "lodash.omitby@npm:4.6.0"
-  checksum: 10c0/4608b1d8c4063b63349a3462852465fbe74781d737fbb26a0a7f00b0e65f6ccbc13fa490a38f9380103d93fc398e3873983038efadfafc67ccafbb25d9bc7bf4
-  languageName: node
-  linkType: hard
-
 "lodash.snakecase@npm:^4.1.1":
   version: 4.1.1
   resolution: "lodash.snakecase@npm:4.1.1"
@@ -17180,20 +16880,6 @@ __metadata:
   version: 4.5.0
   resolution: "lodash.uniq@npm:4.5.0"
   checksum: 10c0/262d400bb0952f112162a320cc4a75dea4f66078b9e7e3075ffbc9c6aa30b3e9df3cf20e7da7d566105e1ccf7804e4fbd7d804eee0b53de05d83f16ffbf41c5e
-  languageName: node
-  linkType: hard
-
-"lodash.uniqby@npm:^4.7.0":
-  version: 4.7.0
-  resolution: "lodash.uniqby@npm:4.7.0"
-  checksum: 10c0/c505c0de20ca759599a2ba38710e8fb95ff2d2028e24d86c901ef2c74be8056518571b9b754bfb75053b2818d30dd02243e4a4621a6940c206bbb3f7626db656
-  languageName: node
-  linkType: hard
-
-"lodash.uniqwith@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "lodash.uniqwith@npm:4.5.0"
-  checksum: 10c0/3db1748302f5903cd2e4c361eb084bcfc48fe4062e37be4860363a0be643bf6617c1f115d61189b69623056a55acbcd451a52b3042b4864d5acc86a3b0ac83df
   languageName: node
   linkType: hard
 
@@ -19063,15 +18749,15 @@ __metadata:
   dependencies:
     "@apidevtools/swagger-parser": "npm:^12.1.0"
     "@commander-js/extra-typings": "npm:^14.0.0"
-    "@orval/angular": "npm:^7.16.0"
-    "@orval/axios": "npm:^7.16.0"
-    "@orval/core": "npm:^7.16.0"
-    "@orval/fetch": "npm:^7.16.0"
-    "@orval/hono": "npm:^7.16.0"
-    "@orval/mcp": "npm:^7.16.0"
-    "@orval/mock": "npm:^7.16.0"
-    "@orval/query": "npm:^7.16.0"
-    "@orval/swr": "npm:^7.16.0"
+    "@orval/angular": "https://gitpkg.vercel.app/jihanga/orval/packages/angular?master"
+    "@orval/axios": "https://gitpkg.vercel.app/jihanga/orval/packages/axios?master"
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master"
+    "@orval/fetch": "https://gitpkg.vercel.app/jihanga/orval/packages/fetch?master"
+    "@orval/hono": "https://gitpkg.vercel.app/jihanga/orval/packages/hono?master"
+    "@orval/mcp": "https://gitpkg.vercel.app/jihanga/orval/packages/mcp?master"
+    "@orval/mock": "https://gitpkg.vercel.app/jihanga/orval/packages/mock?master"
+    "@orval/query": "https://gitpkg.vercel.app/jihanga/orval/packages/query?master"
+    "@orval/swr": "https://gitpkg.vercel.app/jihanga/orval/packages/swr?master"
     "@orval/zod": "https://gitpkg.vercel.app/jihanga/orval/packages/zod?master"
     "@types/fs-extra": "npm:^11.0.4"
     "@types/js-yaml": "npm:^4.0.9"

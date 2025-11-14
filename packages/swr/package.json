@@ -22,7 +22,7 @@
     "nuke": "rimraf .turbo dist node_modules"
   },
   "dependencies": {
-    "@orval/core": "workspace:*",
+    "@orval/core": "https://gitpkg.vercel.app/jihanga/orval/packages/core?master",
     "@orval/fetch": "workspace:*"
   },
   "devDependencies": {
