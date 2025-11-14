@@ -678,9 +678,10 @@ export const generateZodValidationSchemaDefinition = (
     }
   }
 
-  if (!required && schema.default !== undefined) {
-    functions.push(['default', defaultVarName]);
-  } else if (!required && nullable) {
+  // if (!required && schema.default !== undefined) {
+  //   functions.push(['default', defaultVarName]);
+  // } else 
+  if (!required && nullable) {
     functions.push(['nullish', undefined]);
   } else if (nullable) {
     functions.push(['nullable', undefined]);
@@ -1239,7 +1240,7 @@ const parseParameters = ({
 
 const generateZodRoute = async (
   { operationName, verb, override }: GeneratorVerbOptions,
-  { pathRoute, context, output }: GeneratorOptions,
+  { pathRoute, context, output }: GeneratorOptions, 
 ) => {
   const isZodV4 =
     !!context.output.packageJson && isZodVersionV4(context.output.packageJson);
